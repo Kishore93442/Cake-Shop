@@ -1,0 +1,290 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.font1 {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.font2 {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+#call {
+    padding: 10px 20px;
+    border: 1px solid #e5bf4a;
+    color: #e5bf4a;
+    font-size: 1.05rem;
+    transition: 0.8s;
+    background-color: black;
+}
+
+#call:hover {
+    color: white;
+    background-color: #e5be4ac7;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+#header img {
+    margin-left: 100px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+
+#nav li {
+    transition: 0.7s;
+    font-size: large;
+}
+
+#nav li:hover {
+    cursor: pointer;
+    color: #e5bf4a;
+    transform: rotatey(180deg);
+    transition: 0.7s;
+}
+
+#nav1 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-weight: 400;
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#nav1 {
+    position: sticky;
+    top: 0px !important;
+    z-index: 2;
+}
+
+#nav1 a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav1 li:hover {
+    color: #e5bf4a;
+    cursor: pointer;
+    text-decoration: underline solid #e5bf4a 1px;
+    text-underline-offset: 15px;
+}
+
+#sec1 {
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.contact {
+    font-size: 4.3rem;
+    position: absolute;
+    top: 100px;
+    left: 130px;
+}
+
+#sec2 {
+    padding: 90px;
+}
+
+.touch h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+textarea {
+    color: gray;
+    background-color: black;
+    width: 750px;
+}
+
+.input input {
+    padding: 15px 136.5px 15px 15px;
+    background-color: black;
+    color: gray;
+    border: 1px gray solid;
+}
+
+.input {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 750px;
+}
+
+input {
+    padding: 15px;
+    width: 720px;
+    background-color: black;
+    color: gray;
+    border: 1px solid gray;
+}
+.touch button{
+    padding: 15px 35px;
+    color:black;
+    background-color: #e5bf4a;
+    border: 1px solid #e5bf4a;
+    transition: all 1s;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.touch button:hover{
+    background-color: black;
+    color: #e5bf4a;
+    scale: 1.02;
+    cursor: pointer;
+}
+.home{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.home i{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+#sec3{
+    display: flex;
+    justify-content: space-around;
+}
+.address{
+    margin-top: 50px;
+}
+#footer {
+    width: 85%;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.insta {
+    display: flex;
+    gap: 30px;
+    width: 200px;
+    height: 200px;
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+
+.ul1 ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-top: 20px;
+}
+.ul1 a{
+     text-decoration: none;
+    color: white;
+}
+
+.ul1 li:hover {
+    text-decoration: underline solid #e5bf4a 1px;
+    text-underline-offset: 15px;
+    cursor: pointer;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr1 {
+    margin-top: 40px;
+    opacity: 0.2;
+    margin-bottom: 50px;
+}
+
+.foot1 {
+    width: 580px;
+    font-size: 1.1rem;
+    margin-bottom: 70px;
+}
+
+.foot2 {
+    width: 500px;
+    display: flex;
+    gap: 20px;
+}
+
+.foot2 button {
+    padding: 12px 40px;
+    display: flex;
+    gap: 10px;
+    font-size: 1.1rem;
+    background-color: black;
+    color: white;
+    border: 0.1px solid rgba(255, 255, 255, 0.11);
+}
+
+.foot2 button span {
+    font-size: 0.95rem;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.foot2 button:hover {
+    border: 0.1px solid #e5be4a4f;
+    color: #e5bf4a;
+    cursor: pointer;
+}
+
+.foot3 {
+    width: 150px;
+}
+
+.foot3 h2 {
+    font-weight: 300;
+    color: #e5bf4a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ph {
+    cursor: pointer;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.heart {
+    font-size: 0.85rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.heart span {
+    color: #e5bf4a;
+}
+
+.co {
+    cursor: pointer;
+}

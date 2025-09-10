@@ -1,0 +1,478 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.font1 {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.font2 {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+#call {
+    padding: 10px 20px;
+    border: 1px solid #e5bf4a;
+    color: #e5bf4a;
+    font-size: 1.05rem;
+    transition: 0.8s;
+    background-color: black;
+}
+
+#call:hover {
+    color: white;
+    background-color: #e5be4ac7;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+#header img {
+    margin-left: 100px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+
+#nav li {
+    transition: 0.7s;
+    font-size: large;
+}
+
+#nav li:hover {
+    cursor: pointer;
+    color: #e5bf4a;
+    transform: rotatey(180deg);
+    transition: 0.7s;
+}
+
+#nav1 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-weight: 400;
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#nav1 {
+    position: sticky;
+    top: 0px !important;
+    z-index: 2;
+}
+
+#nav1 a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav1 li:hover {
+    color: #e5bf4a;
+    cursor: pointer;
+    text-decoration: underline solid #e5bf4a 1px;
+    text-underline-offset: 15px;
+}
+
+#sec1 {
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.blog {
+    font-size: 4.3rem;
+    position: absolute;
+    top: 100px;
+    left: 130px;
+}
+
+#sec2 {
+    display: flex;
+    gap: 25px;
+}
+
+.user {
+    color: #e5bf4a;
+    display: flex;
+    gap: 10px;
+    font-size: 0.9rem;
+    margin-top: 30px;
+}
+
+.user i,
+img {
+    margin-top: 3px;
+}
+
+.blogimg {
+    margin-left: 90px;
+    position: relative;
+}
+
+.google,
+.google1,
+.google2,
+.google3,
+.google4 {
+    position: absolute;
+    bottom: -215px;
+    width: 700px;
+    padding: 50px 25px 30px 25px;
+    border: 0px solid white;
+    box-shadow: -0px 0px 35px rgba(255, 255, 255, 0.301);
+}
+
+.blogimg1,
+.blogimg2,
+.blogimg3,
+.blogimg4 {
+    margin-top: 270px;
+    margin-left: 90px;
+    position: relative;
+}
+
+.blogimg4 {
+    margin-bottom: 220px;
+}
+
+.google p,
+.google1 p,
+.google2 p,
+.google3 p,
+.google4 p {
+    font-size: 1.05rem;
+}
+
+.google h2,
+.google1 h2,
+.google2 h2,
+.google3 h2,
+.google4 h2 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.jan p {
+    position: absolute;
+    top: -60px;
+    left: 40px;
+    background-color: #e5bf4a;
+    font-size: 1.2rem;
+    color: black;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 8px;
+}
+
+.jan span {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.jan p:hover {
+    background-color: rgba(255, 255, 255, 0.021);
+    color: #e5bf4a;
+    cursor: pointer;
+}
+
+.search {
+    background-color: white;
+    padding: 30px;
+}
+
+.search input {
+    padding: 12px 50px 12px 12px;
+    font-size: smaller;
+    border: 1px solid rgba(128, 128, 128, 0.226);
+}
+
+.search button {
+    padding: 11px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #e5bf4a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.cate {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 30px;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+.cate p {
+    margin-bottom: 15px;
+}
+
+hr {
+    margin-bottom: 10px;
+    opacity: 0.2;
+}
+
+.post {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.623);
+    padding: 30px;
+}
+
+.post1 {
+    font-size: 0.90rem;
+    position: relative;
+}
+
+.post1 span {
+    position: absolute;
+    top: 35px;
+    margin-left: 20px;
+}
+
+.tag {
+    padding: 30px;
+    background-color: white;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+.tag hr {
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.tags span {
+    padding: 8px 14px;
+    background-color: white;
+    color: #e5bf4a;
+    border: 1px solid rgba(128, 128, 128, 0.089);
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tags span:hover {
+    background-color: #e5bf4a;
+    color: white;
+}
+
+.feed {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: white;
+    color: black;
+}
+
+.feeds {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 13px;
+}
+
+.feed hr {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.new {
+    background-color: white;
+    color: black;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.new hr {
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.new button {
+    color: #e5bf4a;
+    border: #e5bf4a 1px solid;
+    padding: 20px 130px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+    transition: all 1s;
+    font-size: 1rem;
+}
+
+.new input {
+    padding: 15px 175px 15px 15px;
+    text-align: left;
+    border: solid rgba(128, 128, 128, 0.096) 1px;
+}
+
+.new button:hover {
+    color: white;
+    background-color: #e5bf4a;
+    cursor: pointer;
+    scale: 0.99;
+}
+
+#sec3 {
+    margin-top: 80px;
+    margin-bottom: 200px;
+    color: #e5bf4a;
+    text-align: center;
+}
+
+.left i {
+    padding: 13.3px 15px;
+    background-color: white;
+    border: 1px rgba(255, 255, 255, 0.486) solid;
+}
+
+.left span {
+    padding: 10px 15px;
+    background-color: white;
+    border: 1px rgba(255, 255, 255, 0.486) solid;
+}
+
+.left i:hover,
+span:hover {
+    background-color: black;
+}
+
+#footer {
+    width: 80%;
+    margin-left: 120px;
+}
+
+.insta {
+    display: flex;
+    gap: 30px;
+    width: 200px;
+    height: 200px;
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+
+.ul1 ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.ul1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.ul1 li:hover {
+    text-decoration: underline solid #e5bf4a 1px;
+    text-underline-offset: 15px;
+    cursor: pointer;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr1 {
+    margin-top: 40px;
+    opacity: 0.2;
+    margin-bottom: 50px;
+}
+
+.foot1 {
+    width: 580px;
+    font-size: 1.1rem;
+    margin-bottom: 70px;
+}
+
+.foot2 {
+    width: 500px;
+    display: flex;
+    gap: 20px;
+}
+
+.foot2 button {
+    padding: 12px 40px;
+    display: flex;
+    gap: 10px;
+    font-size: 1.1rem;
+    background-color: black;
+    color: white;
+    border: 0.1px solid rgba(255, 255, 255, 0.11);
+}
+
+.foot2 button span {
+    font-size: 0.95rem;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.foot2 button:hover {
+    border: 0.1px solid #e5be4a4f;
+    color: #e5bf4a;
+    cursor: pointer;
+}
+
+.foot3 {
+    width: 150px;
+}
+
+.foot3 h2 {
+    font-weight: 300;
+    color: #e5bf4a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ph {
+    cursor: pointer;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.heart {
+    font-size: 0.85rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.heart span {
+    color: #e5bf4a;
+}
+
+.co {
+    cursor: pointer;
+}
